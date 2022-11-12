@@ -1,0 +1,65 @@
+[
+  {
+    "name": "ЛКП ЛЕВ",
+    "time": "8:00-19:00",
+    "adress": "Shevchenka Street, 56",
+    "email": "Lev@gmail.com",
+    "phone": "0-800-500-123"
+  },
+ {
+    "name": "Барбос",
+    "time": "8:00-20:00",
+    "adress": "Grigorenka Street, 25",
+    "email": "barbos@gmail.com",
+    "phone": "066 488 0480"
+  },
+   {
+    "name": "Whiskas",
+    "time": "____________",
+    "adress": "____________",
+    "email": "whiskas@gmail.com",
+    "phone": "0-800-500-155"
+  },
+  {
+    "name": "Happy paw",
+    "time": "09:00-19:00",
+    "adress": "Chota Rystaveli Street, 44",
+    "email": "hello@happypaw.ua",
+    "phone": "+380 44 290-03-29"
+  },
+  {
+    "name": "PetHelp",
+    "time": "____________",
+    "adress": "____________",
+    "email": "pithelp.ukr@gmail.com",
+    "phone": "____________"
+  },
+   {
+    "name": "Сіріус",
+    "time": "11:00-16:00",
+    "adress": "Fedorivka, Kyiv Oblast",
+    "email": "dogcat.sirius@gmail.com",
+    "phone": "+38 093 193 40 69"
+  },
+  {
+    "name": "PURINA",
+    "time": "____________",
+    "adress": "____________",
+    "email": "info@ua.nestle.com",
+    "phone": "1-800-778-7462"
+  },
+   {
+    "name": "Josera",
+    "time": "09:00-17:00",
+    "adress": "Sholom-Aleikhema St, 11",
+    "email": "info@josera.ua",
+    "phone": "0800 409 060"
+  },
+   {
+    "name": "LICO",
+    "time": "09:00-20:00",
+    "adress": "Dryhetiv Street, 77",
+    "email": "lico@gmail.com",
+    "phone": "+38 097 509 8005"
+  }
+]

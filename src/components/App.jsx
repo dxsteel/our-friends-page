@@ -1,16 +1,13 @@
+import TitleFriends from "./TitleFriends";
+import EventBoardFriends from "./EventBoardFriends";
+
+import data from '../our-friends-page.json';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+      <TitleFriends text="Our friend" />
+      <EventBoardFriends events={data}/>
     </div>
   );
 };
