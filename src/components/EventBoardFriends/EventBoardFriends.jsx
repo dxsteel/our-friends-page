@@ -5,8 +5,9 @@ import styles from './EventBoardFriends.module.css'
 export const EventBoardFriends = ({ events }) => {
   return (
     <div className={styles.eventBoard}>
-      {events.map(({ name, time, adress, email, phone }) => (
+      {events.map(({ image, name, time, adress, email, phone }) => (
         <EventFriends key={name}
+          image={image}
           name={name}
           time={time}
           adress={adress}
@@ -21,6 +22,7 @@ export const EventBoardFriends = ({ events }) => {
 EventBoardFriends.propTypes = {
   events: PropTypes.arrayOf(
     PropTypes.exact({
+      image: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
           time: PropTypes.string.isRequired,
           adress: PropTypes.string.isRequired,

@@ -1,12 +1,14 @@
 [
   {
-    "name": "ЛКП ЛЕВ",
+    "image":"https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
+    "name": "ЛКП 'ЛЕВ' ",
     "time": "8:00-19:00",
     "adress": "Shevchenka Street, 56",
     "email": "Lev@gmail.com",
     "phone": "0-800-500-123"
   },
  {
+  "image":"https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
     "name": "Барбос",
     "time": "8:00-20:00",
     "adress": "Grigorenka Street, 25",
@@ -14,6 +16,7 @@
     "phone": "066 488 0480"
   },
    {
+    "image":"https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
     "name": "Whiskas",
     "time": "____________",
     "adress": "____________",
@@ -21,6 +24,7 @@
     "phone": "0-800-500-155"
   },
   {
+    "image":"https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
     "name": "Happy paw",
     "time": "09:00-19:00",
     "adress": "Chota Rystaveli Street, 44",
@@ -28,6 +32,7 @@
     "phone": "+380 44 290-03-29"
   },
   {
+    "image":"https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
     "name": "PetHelp",
     "time": "____________",
     "adress": "____________",
@@ -35,6 +40,7 @@
     "phone": "____________"
   },
    {
+    "image":"https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
     "name": "Сіріус",
     "time": "11:00-16:00",
     "adress": "Fedorivka, Kyiv Oblast",
@@ -42,6 +48,7 @@
     "phone": "+38 093 193 40 69"
   },
   {
+    "image":"https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
     "name": "PURINA",
     "time": "____________",
     "adress": "____________",
@@ -49,6 +56,7 @@
     "phone": "1-800-778-7462"
   },
    {
+    "image":"https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
     "name": "Josera",
     "time": "09:00-17:00",
     "adress": "Sholom-Aleikhema St, 11",
@@ -56,6 +64,7 @@
     "phone": "0800 409 060"
   },
    {
+    "image":"https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
     "name": "LICO",
     "time": "09:00-20:00",
     "adress": "Dryhetiv Street, 77",

@@ -1,33 +1,56 @@
 .event {
-  position: relative;
-  border: 2px dashed #000000;
-  padding: 8px;
-  border-radius: 4px;
+  background: #FFFFFF;
+  width: 395px;
+  height: 287px;
+  box-shadow: 7px 4px 14px rgba(49, 21, 4, 0.07);
+  border-radius: 40px;
+  margin: 16px;
 }
 
 .title {
-  margin-top: 0;
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 700;
-  letter-spacing: 0.5px;
+  margin-top: 16;
+  font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    justify-content: center;
+    text-decoration-line: underline;
+    color: #F59256;
 }
 
-.info {
+.logo {
+  width: 158px;
+  height: 112px;
+}
+
+.logoPosition {
   display: flex;
-  align-items: center;
-  margin-top: 0;
-  margin-bottom: 8px;
-  color: red;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400px;
-  letter-spacing: 0.25rem;
+}
+
+
+.info {
+  font-family: 'Manrope';
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    line-height: 22px;
+    list-style: none;
 }
 
 .icon{
-  display: block;
-  margin-right: 8px;
-  color: aqua;
+
+  font-family: 'Manrope';
+  font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  
+    color: #000000;
 }
 
