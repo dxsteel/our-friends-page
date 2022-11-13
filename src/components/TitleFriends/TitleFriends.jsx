@@ -5,8 +5,7 @@ export const TitleFriends = ({ text }) => {
   return (
   <TitleName>
     {text}
-      </TitleName>
-     
+  </TitleName>
   )
 };
 

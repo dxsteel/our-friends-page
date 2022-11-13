@@ -7,16 +7,16 @@ export const EventFriends = ({image, name, time, adress, email, phone }) => {
     <div className={styles.event}>
       <h3 className={styles.title}>{name}</h3>
       <div className={styles.contentPosition}>
-      <div><img src={image} alt="" className={styles.logo} /></div>
+      <div className={styles.logoPosition} ><img src={image} alt="" className={styles.logo} /></div>
         <ul className={styles.info}>
           <li>Time:</li>
-          <span>{time}</span>
-          <li>Adress:</li>
-          <span>{adress}</span>
-          <li>Email:</li>
-          <a href="mailto:">{email}</a>
-          <li>Phone:</li>
-          <a href="tel:">{phone}</a>
+          <li>{time}</li>
+          <li className={styles.item}>Adress:</li>
+          <li>{adress}</li>
+          <li className={styles.item}>Email:</li>
+         <li><a className={styles.infoLink} href="mailto:">{email}</a></li>
+          <li className={styles.item}>Phone:</li>
+          <li><a className={styles.infoLink} href="tel:">{phone}</a></li>
         </ul>
         </div>
     </div>

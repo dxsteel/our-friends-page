@@ -1,10 +1,10 @@
 import EventFriends from 'components/EventFriends';
 import PropTypes from 'prop-types';
-import styles from './EventBoardFriends.module.css'
+import { EventBoard } from './EvenBoardFriends.styled';
 
 export const EventBoardFriends = ({ events }) => {
   return (
-    <div className={styles.eventBoard}>
+    <EventBoard>
       {events.map(({ image, name, time, adress, email, phone }) => (
         <EventFriends key={name}
           image={image}
@@ -15,7 +15,7 @@ export const EventBoardFriends = ({ events }) => {
           phone={phone}
         />
       ))}
-    </div>
+    </EventBoard>
   );
 };
 
