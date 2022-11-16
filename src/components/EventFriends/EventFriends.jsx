@@ -2,12 +2,12 @@ import PropTypes from 'prop-types';
 import styles from './EventFriends.module.css';
 
 
-export const EventFriends = ({image, name, time, adress, email, phone }) => {
+export const EventFriends = ({logo, name, time, adress, email, phone }) => {
   return (
     <div className={styles.event}>
       <h3 className={styles.title}>{name}</h3>
       <div className={styles.contentPosition}>
-      <div className={styles.logoPosition} ><img src={image} alt="" className={styles.logo} /></div>
+      <div className={styles.logoPosition} ><img src={logo} alt="" className={styles.logo} /></div>
         <ul className={styles.info}>
           <li>Time:</li>
           <li>{time}</li>
@@ -24,7 +24,7 @@ export const EventFriends = ({image, name, time, adress, email, phone }) => {
 }
 
 EventFriends.propTypes = {
-  image:PropTypes.string.isRequired,
+  logo:PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   time: PropTypes.string.isRequired,
   adress: PropTypes.string.isRequired,
