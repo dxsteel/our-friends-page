@@ -6,7 +6,6 @@ import { useState } from 'react';
 export const EventFriends = ({
   logo,
   name,
-  time,
   workspace,
   adress,
   email,
