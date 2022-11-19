@@ -1,10 +1,13 @@
 import TitleFriends from './TitleFriends';
 import EventBoardFriends from './EventBoardFriends';
 
+
+
 // import data from '../our-friends-page.json';
 import { Component } from 'react';
 
 export default class App extends Component {
+  
   state = {
     data: [],
   };
@@ -17,9 +20,10 @@ export default class App extends Component {
       .then(data => this.setState({ data }));
   }
 
+  
+
   render() {
     const { data } = this.state;
-
     return (
       <div>
         <TitleFriends text="Our friend" />

@@ -5,11 +5,12 @@ import { EventBoard } from './EvenBoardFriends.styled';
 export const EventBoardFriends = ({ events }) => {
   return (
     <EventBoard>
-      {events.map(({ logo, name, time, adress, email, phone }) => (
+      {events.map(({ logo, name, time, workspace, adress, email, phone }) => (
         <EventFriends key={name}
           logo={logo}
           name={name}
           time={time}
+          workspace={workspace}
           adress={adress}
           email={email}
           phone={phone}
@@ -25,6 +26,7 @@ EventBoardFriends.propTypes = {
       logo: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
           time: PropTypes.string.isRequired,
+          workspace: PropTypes.string.isRequired,
           adress: PropTypes.string.isRequired,
           email: PropTypes.string.isRequired,
           phone: PropTypes.string.isRequired,

@@ -75,3 +75,19 @@ text-decoration: none;
     color: #000000;
 }
 
+.button {
+  outline: 0 !important;
+  border: 0;
+  background:none;
+  font-family: 'Manrope';
+  font-family: sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 1.33;
+padding: 0;
+}
+
+.button:hover {
+  color: #F59256;
+}
