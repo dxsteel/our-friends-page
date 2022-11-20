@@ -2,16 +2,17 @@
  height: 100vh;
  width: 100vw;
  /* background-color: rgba(0,0,0,0.04); */
- position:fixed;
- top:0;
- left:0;
+ position:absolute;
+ /* right: calc((100vw - 1000px) / 2); */
+ top:-130px;
+ left: -461px;
  display: flex;
  align-items: center;
  justify-content: center;
  opacity: 0;
  pointer-events: none;
  transition: 0.5s;
-
+z-index: 2;
 }
 
 .modal.active {
