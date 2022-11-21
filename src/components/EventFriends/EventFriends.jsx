@@ -13,7 +13,26 @@ export const EventFriends = ({
 }) => {
   const [modalActive, setModalActive] = useState(false);
 
+  function ShowTime() {
+    return <span>{workspace}</span>;
+  }
+  
+  function ShowClose() {
+    return <h3>_ _ _ _ _</h3>;
+  }
+
+  function Greeting(workspace) {
+    const isOpen = workspace.isOpen;
+    if (isOpen) {
+      return <ShowTime/>
+    }
+    if(workspace === [] ){
+      return <ShowClose/>
+    }
+  }
+
   return (
+    // <div сlassName={styles.cardPosition}>
     <div className={styles.event}>
       <h3 className={styles.title}>{name}</h3>
       <div className={styles.contentPosition}>
@@ -28,7 +47,7 @@ export const EventFriends = ({
               onClick={() => setModalActive(true)}
               type="button"
             >
-              {workspace}
+              <Greeting isOpen={true} />
             </button>
           </li>
           <li className={styles.item}>Adress:</li>
@@ -70,10 +89,11 @@ export const EventFriends = ({
           <li className='text__position'>SU:
           <span className='workspace__position' >{workspace}</span>
           </li>
-          
         </ul>
       </ModalTimeFriends>
     </div>
+   
+    // </div>
   );
 };
 
